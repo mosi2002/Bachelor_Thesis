@@ -11,8 +11,7 @@ This thesis focuses on problem of state estimation for **Non-linear Dynamics**. 
 For This Nonlinear system, Assume:
 
 $$
-\dot{x(t)} = F(x(t)) \\
-
+\dot{x(t)} = F(x(t)) \\,
 y(t) = H(x(t))
 $$
 
