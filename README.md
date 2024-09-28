@@ -29,6 +29,12 @@ $$
 \frac{\partial T}{\partial x}(x) F(x) = AT(x) + BH(x)
 $$
 
+Now the challenging part is due the part to solve above equation. The cost of solving Lie derivative of T along F(x) is high. So in this Thesis we define the observer we designed as **[Chen-Flies Series](https://github.com/iperezav/CFSpy)**:
+
+$$
+\dot{z} = g_0(z) + \serie
+$$
+
 ### Usage 
 
 To use this code, you will need to install the following Python packages:
