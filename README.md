@@ -5,9 +5,15 @@ This is the code for my Bsc thesis about Neural network based state estimation u
 
 
 ### Introduction
-This thesis focuses on problem of state estimation for **Non-linear Dynamics**. The problem with model-based observer is due to the need of solving PDEs. In this thesis i used 
+This thesis focuses on problem of state estimation for **Non-linear Dynamics**. The problem with model-based observer is due to the need of solving PDEs. In this thesis i used **Gradient Decent (GD)** for updating lie derivatives and also by considering the observer dynamics as a Chen-Fliess series, the estimaton has minimum error. The proposed approach is demonstrated by oscillating system.
 
-Equation:
+### Problem Formulation
+For This Nonlinear system, Assume:
+
+$$
+\dot{x(t)} = F(x(t)) \\
+y(t) = H(x(t))
+$$
 
 
 
