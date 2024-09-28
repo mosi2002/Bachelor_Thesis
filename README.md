@@ -22,6 +22,12 @@ $$
 \hat{x} = T^{-1}(z)
 $$
 
+we can have an estimation about states. It is required that 1) (A, B) should be controllable 2) A should be Hurwitz and 3) T is can be inversed!
+In additionally, it's required T to be obtain:
+
+$$
+\frac{\partial T}{\partial x}(x) F(x) = AT(x) + BH(x)
+$$
 
 ### Usage 
 
