@@ -58,6 +58,13 @@ the assumption shall be referred to as that of persistant excitation, Hence the 
 
 ![image](https://github.com/user-attachments/assets/83ab9554-721f-4de5-b1a9-f6258cc14bdf)
 
+### Case Study
+Assumae this oscillating dynamic:
+
+![image](https://github.com/user-attachments/assets/b6f10f95-48c2-43db-8e88-d2106156b3b9)
+
+
+
 ### result
 
 ![image](https://github.com/user-attachments/assets/e7196ac5-2d5e-4d16-9b08-349787b7e98b)
