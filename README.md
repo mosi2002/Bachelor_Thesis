@@ -54,7 +54,7 @@ and
 
 ![image](https://github.com/user-attachments/assets/f600ceab-f7fc-43b3-8140-c09a9deec349)
 
-the assumption shall be referred to as that of persistant excitation, Hence the optimal solution at time t + \delta can be found:
+the assumption shall be referred to as that of persistant excitation, Hence the optimal solution at time t + \Delta can be found:
 
 ![image](https://github.com/user-attachments/assets/83ab9554-721f-4de5-b1a9-f6258cc14bdf)
 
