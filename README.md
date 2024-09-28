@@ -12,6 +12,7 @@ For This Nonlinear system, Assume:
 
 $$
 \dot{x(t)} = F(x(t)) \\
+
 y(t) = H(x(t))
 $$
 
