@@ -39,15 +39,24 @@ $$
 and
 
 $$
-Lie_g(h) = \frac{\partial h}{\partial z} g(z), For each component
+Lie_g(h) = \frac{\partial h}{\partial z} g(z)
 $$
 
 and for estimation:
 
-$$
-\hat{x}_j(t + \Delta) = \sum_{k=0}^{\infty} \sum_{\mu \in I_k^m} L_{\mu} h_j(z(t)) E_{\mu}(t, t + \Delta)
-$$
+![image](https://github.com/user-attachments/assets/46030f61-b5dc-41e4-9c70-a6c96eb45b54)
 
+also we used online Least-Squares for Chen-Fliess:
+
+![image](https://github.com/user-attachments/assets/60f8f51c-c58f-4ce0-a616-e1d0d7ade6b1)
+
+and
+
+![image](https://github.com/user-attachments/assets/f600ceab-f7fc-43b3-8140-c09a9deec349)
+
+the assumption shall be referred to as that of persistant excitation, Hence the optimal solution at time t + \delta can be found:
+
+![image](https://github.com/user-attachments/assets/83ab9554-721f-4de5-b1a9-f6258cc14bdf)
 
 
 ### Usage 
@@ -57,6 +66,8 @@ To use this code, you will need to install the following Python packages:
 ```
 pip install numpy matplotlib
 ```
+
+**This repository contains code for my Bsc thesis and from privacy, it's the complete code, for more information contact nesaeian.mostafa@gmail.com**
 
 1) run **Main.ipynb** for state estimation.
 
