@@ -15,6 +15,12 @@ $$
 y(t) = H(x(t))
 $$
 
+The observer suggest that by considering this linear form:
+
+$$
+\dot{z} = Az + By,
+\hat{x} = T^{-1}(z)
+$$
 
 
 ### Usage 
