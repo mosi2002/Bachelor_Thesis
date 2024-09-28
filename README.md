@@ -32,8 +32,23 @@ $$
 Now the challenging part is due the part to solve above equation. The cost of solving Lie derivative of T along F(x) is high. So in this Thesis we define the observer we designed as **[Chen-Flies Series](https://github.com/iperezav/CFSpy)**:
 
 $$
-\dot{z} = g_0(z) + \serie
+\dot{z} = g_0(z) + g_1(z)y + g_2(z)y + ... ,
+\hat{x} = h(z)
 $$
+
+and
+
+$$
+Lie_g(h) = \frac{\partial h}{\partial z} g(z), For each component
+$$
+
+and for estimation:
+
+$$
+\hat{x}_j(t + \Delta) = \sum_{k=0}^{\infty} \sum_{\mu \in I_k^m} L_{\mu} h_j(z(t)) E_{\mu}(t, t + \Delta)
+$$
+
+
 
 ### Usage 
 
